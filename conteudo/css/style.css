@@ -1,5 +1,13 @@
 @charset "utf-8";
 
+
+#mapa{
+  width: 500px;
+  height: 500px; 
+  border: 1px solid #ccc;
+    background-color: aliceblue;
+}
+
 a{
    text-decoration: none;
     color: #8B0000;
@@ -33,6 +41,34 @@ header{
     width: 100%;
     height: 100px;
     background-color: #000;
+    border-bottom: solid 3px #8B0000;
+}
+
+.nomeLoja{
+    width: 500px;
+    height: 60px; 
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    color: #8B0000;
+    font-family: Arial;
+    font-size: 60px;
+    text-align: center;
+    margin-top: -10px;
+    font-weight: bold;
+}
+
+.rodape{
+     width: 500px;
+    height: 60px; 
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    color: #FFF;
+    font-family: Arial;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 10px;
 }
 
 .imgFundo{
@@ -59,6 +95,7 @@ header{
     width: 28px;
     height: 28px;
     float:left;
+    background-color: #000;
 }
 
 .formulario{   
@@ -223,11 +260,13 @@ footer{
     width: 500px;
     height: 500px;
     color: #000;
-    margin-left: 500px;
+    margin-left: auto;
+    margin-right: auto;
     background-color: #FFF;
     border-radius: 15px;
     font-family: Arial;
     clear:both;
+    margin-top: 50px;
 }
 
 .login{

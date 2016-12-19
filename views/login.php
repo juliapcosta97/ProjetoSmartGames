@@ -39,8 +39,16 @@
     
 <body>
     
-    <div class="imgLogo"><img src="conteudo/imagens/icone.png" ></div>
-
+    <header>
+        <!--<img src="conteudo/imagens/imgFundo.jpg" class="imgFundo">-->
+        <div class="imgLogo"><img src="conteudo/imagens/icone.png" ></div>
+    
+        <p class="nomeLoja">Smart Games</p>
+             
+    
+        
+    </header>
+    
 <div id="conteudo">
 
         <div class="formularioLogin">
@@ -56,7 +64,7 @@
 </div>
     
     <footer>
-    
+         <p class="rodape">Todos os direitos reservados a Julia Pereira.</p>
     </footer>
     
     

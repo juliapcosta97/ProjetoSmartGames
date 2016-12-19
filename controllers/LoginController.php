@@ -44,7 +44,12 @@ require_once('models/login_class.php');
                 
                 header( 'Location: router.php?controller=Home&modo=index');
             }else{
-                echo("Erro");
+                echo("<script>
+					alert('Usuario ou Senha incorreto');
+
+					location.href = 'router.php?controller=Login&modo=login';
+				</script>");
+	
            }
            
         }

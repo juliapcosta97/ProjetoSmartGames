@@ -25,6 +25,11 @@
                    $controller->detalhes();
                   
                 break;
+                    
+                case 'busca':
+                   $controller->busca();
+                  
+                break;
        
             }
         break;

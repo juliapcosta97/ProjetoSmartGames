@@ -40,12 +40,16 @@
 
 <header>
         <!--<img src="conteudo/imagens/imgFundo.jpg" class="imgFundo">-->
-        <div class="imgLogo"><img src="conteudo/imagens/icone.png" ></div>
+        <div class="imgLogo"><a href="router.php?controller=Home&modo=index"><img src="conteudo/imagens/icone.png" ></a></div>
+    
+        <p class="nomeLoja">Smart Games</p>
              
         <div class="formulario">
-            <a href=""><img src="conteudo/imagens/buscar.png" class="imgBuscar"> </a>
-            <form method="post" >
-                <input type="text" class="inputPesquisa">
+            <!--<a href=""><img src="conteudo/imagens/buscar.png" class="imgBuscar"> </a>-->
+            <form method="post" action="router.php?controller=Home&modo=busca">
+                <input type="text" name="txtBusca" class="inputPesquisa">
+                
+                <input type="image" type= "submit" src="conteudo/imagens/buscar.png" name="btnBusca" class="imgBuscar">
             </form>
             
         </div>
@@ -54,7 +58,8 @@
         
     </header>
     
-    <nav id="menu" >
+       
+    <!-- <nav id="menu" >
             <ul >
                 <li><a>Gênero</a>
                     <!--<ul class="submenu">
@@ -64,7 +69,7 @@
                        <li><a href="#">Esportes</a></li>
                        <li><a href="#">Estratégia</a></li>
                        <li><a href="#">Luta</a></li>
-                    </ul>-->
+                    </ul>
                 </li>
                 
                 <li><a>Classificação</a>
@@ -74,7 +79,7 @@
                        <li><a href="#">+14</a></li>
                        <li><a href="#">+16</a></li>
                        <li><a href="#">+18</a></li>
-                    </ul>-->
+                    </ul>
                 </li>
                 
                 <li><a>Plataforma</a>
@@ -85,7 +90,7 @@
                        <li><a href="#">Playstation 4</a></li>
                        <li><a href="#">Nitendo Wii</a></li>
                        <li><a href="#">PC</a></li>
-                    </ul>-->
+                    </ul>
                 </li>
                 
                 <li><a>Desenvolvedor</a>
@@ -96,11 +101,11 @@
                        <li><a href="#">Microsoft  </a></li>
                        <li><a href="#">EA  </a></li>
                        <li><a href="#">Nintendo </a></li>
-                    </ul>-->
+                    </ul>
                 </li>
             </ul>
        
-    </nav>
+    </nav> -->
     
     <div id="conteudo">
 
@@ -123,7 +128,7 @@
 </div>
 
     <footer>
-    
+         <p class="rodape">Todos os direitos reservados a Julia Pereira.</p>
     </footer>
     
     

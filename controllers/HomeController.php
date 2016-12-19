@@ -14,6 +14,20 @@ require_once('models/produto_class.php');
             require_once("views/home.php");
         }
         
+        public function busca(){
+            
+            if($_SERVER['REQUEST_METHOD']==='POST')
+            {
+			 	$pesquisa = $_POST['txtBusca'];	
+            }
+
+            
+            $p = new Produto();
+            $produtos = $p->selectByName($pesquisa);
+       
+            require_once("views/home.php");
+        }
+        
         public function detalhes(){
             
             $p = new Produto();
